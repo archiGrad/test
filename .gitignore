@@ -1,0 +1,8 @@
+*.pyc
+*.zip
+.DS_Store
+__pycache__/
+_archives/
+archiGrad.io/workfolder/
+node_modules/
+venv/
