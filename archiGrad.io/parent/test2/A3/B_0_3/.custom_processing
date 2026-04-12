@@ -1,5 +1,5 @@
 # .custom_processing - exported from batch runner
-PIPELINE_ORDER = [{"step":"alpha_outline","enabled":true,"params":{"ALPHA_OUTLINE_THICKNESS":5,"ALPHA_OUTLINE_COLOR":[255,0,0],"ALPHA_OUTLINE_LERPCOLOR":"newcolor"}},{"step":"alpha_outline","enabled":true,"params":{"ALPHA_OUTLINE_THICKNESS":5,"ALPHA_OUTLINE_COLOR":[0,255,42],"ALPHA_OUTLINE_LERPCOLOR":"newcolor"}},{"step":"alpha_outline","enabled":true,"params":{"ALPHA_OUTLINE_THICKNESS":5,"ALPHA_OUTLINE_COLOR":[30,0,255],"ALPHA_OUTLINE_LERPCOLOR":"newcolor"}}]
+PIPELINE_ORDER = [{"step":"dither","enabled":true,"params":{"DITHER_MODE":"bw","DITHER_METHOD":"ordered","DITHER_COLORS":2,"CUSTOM_PALETTE":[]}},{"step":"blur","enabled":true,"params":{"GAUSSIAN_BLUR_RADIUS":4}},{"step":"alpha_outline","enabled":true,"params":{"ALPHA_OUTLINE_THICKNESS":1,"ALPHA_OUTLINE_COLOR":[255,0,0],"ALPHA_OUTLINE_LERPCOLOR":"newcolor"}},{"step":"alpha_outline","enabled":true,"params":{"ALPHA_OUTLINE_THICKNESS":1,"ALPHA_OUTLINE_COLOR":[0,255,42],"ALPHA_OUTLINE_LERPCOLOR":"newcolor"}},{"step":"alpha_outline","enabled":true,"params":{"ALPHA_OUTLINE_THICKNESS":1,"ALPHA_OUTLINE_COLOR":[30,0,255],"ALPHA_OUTLINE_LERPCOLOR":"newcolor"}}]
 SPRITE_SIZE = 256
 RESIZE_METHOD = "NEAREST"
 PROCESSING_SCOPE = "stack"
