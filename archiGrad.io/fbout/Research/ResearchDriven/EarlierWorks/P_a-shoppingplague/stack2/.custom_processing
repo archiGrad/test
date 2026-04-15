@@ -1,0 +1,15 @@
+# .custom_processing - per-folder overrides
+PIPELINE_ORDER = ["sharpen","blur","contrast","exposure","gamma","color_to_transparent","alpha_outline","dither","invert","pixelate","fill","colorize","color_replace","rectangle","line","edge_outline","grain"]
+SPRITE_SIZE = 256
+RESIZE_METHOD = "LANCZOS"
+PROCESSING_SCOPE = "all"
+MAX_GIF_FRAMES = 30
+GIF_SPEED = 0.6
+IMAGE_SETTINGS_LABELS = true
+IMAGE_SETTINGS_COLOR = [255,255,255]
+IMAGE_SETTINGS_FONTSIZE = 3
+IMAGE_SETTINGS_CUSTOMTEXT = ""
+IMAGE_SETTINGS_CP = false
+LABEL_SPRITE_SIZE = 512
+SQUARE_IMAGES = true
+TRANSPARENCY_THRESHOLD = 0.001

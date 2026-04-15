@@ -1,0 +1,12 @@
+# .custom_processing - Variables you can override per folder
+
+# GIF Settings
+GIF_SPEED = 0.858  # float: 0.0-1.0 (0=slowest, 1=fastest)
+# all other parms can be set here too if wanted
+
+# Image Processing
+# SQUARE_IMAGES = True  # bool: True (force square), False (preserve aspect ratio)
+
+# Viewer Configuration
+STACK_SPACING = 0.0125  # float: any positive number
+#ZOOM_VALUE = 0.5

@@ -1,0 +1,43 @@
+# .custom_processing - Variables you can override per folder
+
+# Sprite Configuration
+#SPRITE_SIZE = 10  # int: any positive integer
+
+# Image Sharpening
+# SHARPEN = True  # bool: True, False
+# SHARPEN_RADIUS = 2  # int: 1, 2, 3, etc.
+# SHARPEN_PERCENT = 100  # int: 0-500 (percentage)
+# SHARPEN_THRESHOLD = 3  # int: 0-255
+
+# Gaussian Blur
+# GAUSSIAN_BLUR = False  # bool: True, False
+# GAUSSIAN_BLUR_RADIUS = 2  # int/float: any positive number
+
+# Color to Transparent
+# COLOR_TO_TRANSPARENT = 'blue'  # str: 'black', 'white', 'red', 'green', 'blue', 'yellow', 'cyan', 'magenta', 'light_gray', 'dark_gray', 'orange', 'purple'
+# COLOR_THRESHOLD = 30  # int: 0-255
+
+# Dithering
+# DITHERING = True  # bool: True, False
+# DITHER_MODE = 'custom_palette'  # str: 'bw', 'color_reduce', 'custom_palette'
+# DITHER_METHOD = 'ordered'  # str: 'floyd_steinberg', 'ordered', 'none'
+# DITHER_COLORS = 256  # int: 2-256 (only used when DITHER_MODE='color_reduce')
+# CUSTOM_PALETTE = ['#000000', '#FF0000', '#00FF00']  # list of hex color strings (only used when DITHER_MODE='custom_palette')
+
+# GIF Settings
+# MAX_GIF_FRAMES = 30  # int: 1-infinite
+GIF_SPEED = 0.327  # float: 0.0-1.0 (0=slowest, 1=fastest)
+
+# Folder Label Settings
+# IMAGE_SETTINGS_LABELS = False  # bool: True, False
+# IMAGE_SETTINGS_COLOR = 'white'  # str: 'white', 'black', or any valid PIL color name
+# IMAGE_SETTINGS_FONTSIZE = 3  # int: any positive integer (scaled automatically based on resolution)
+# IMAGE_SETTINGS_CUSTOMTEXT = "hello"  # str: any text (if empty, uses dotfile or folder name)
+# TEXT_IMAGE_RESOLUTION = 512  # int: any positive integer (fixed resolution for text labels)
+
+# Image Processing
+# SQUARE_IMAGES = True  # bool: True (force square), False (preserve aspect ratio)
+
+# Viewer Configuration
+STACK_SPACING = 0.02  # float: any positive number
+#ZOOM_VALUE = 0.5
