@@ -1,0 +1,16 @@
+# .custom_processing - exported from batch runner
+PIPELINE_ORDER = [{"step":"sharpen","enabled":true,"params":{"SHARPEN_RADIUS":1,"SHARPEN_PERCENT":20,"SHARPEN_THRESHOLD":3}},{"step":"blur","enabled":false,"params":{"GAUSSIAN_BLUR_RADIUS":2}},{"step":"contrast","enabled":false,"params":{"CONTRAST_FACTOR":1}},{"step":"exposure","enabled":false,"params":{"EXPOSURE_FACTOR":1}},{"step":"gamma","enabled":false,"params":{"GAMMA_VALUE":1}},{"step":"color_to_transparent","enabled":false,"params":{"COLOR_TO_TRANSPARENT_COLOR":[0,0,0],"COLOR_TO_TRANSPARENT_THRESHOLD":0}},{"step":"alpha_outline","enabled":false,"params":{"ALPHA_OUTLINE_THICKNESS":-3,"ALPHA_OUTLINE_COLOR":[0,0,0],"ALPHA_OUTLINE_LERPCOLOR":"newcolor"}},{"step":"dither","enabled":false,"params":{"DITHER_MODE":"custom_palette","DITHER_METHOD":"ordered","DITHER_COLORS":256,"CUSTOM_PALETTE":["#000000","#FF0000","#00FF00"]}},{"step":"invert","enabled":false,"params":{"INVERT_COLOR":[0,0,0],"INVERT_THRESHOLD":0}},{"step":"pixelate","enabled":false,"params":{"PIXELATE_LEVEL":2,"PIXELATE_DOWN_METHOD":"NEAREST","PIXELATE_UP_METHOD":"NEAREST"}},{"step":"fill","enabled":false,"params":{"FILL_COLOR":[0,0,0],"FILL_THRESHOLD":128}},{"step":"colorize","enabled":false,"params":{"COLORIZE_COLOR":[255,255,255],"COLORIZE_THRESHOLD":0}},{"step":"color_replace","enabled":false,"params":{"COLOR_REPLACE_SRC":[0,0,0],"COLOR_REPLACE_THRESHOLD":100,"COLOR_REPLACE_DST":[0,0,0]}},{"step":"rectangle","enabled":false,"params":{"RECT_AX":0,"RECT_AY":0,"RECT_BX":1,"RECT_BY":1,"RECT_MODE":"overlay","RECT_FILL":false,"RECT_FILL_COLOR":[255,255,255],"RECT_BORDER":0,"RECT_BORDER_COLOR":[255,255,255],"RECT_CUT_BORDER":0,"RECT_CUT_BORDER_COLOR":[255,255,255],"RECT_ROUNDNESS":0}},{"step":"line","enabled":false,"params":{"LINE_AX":0,"LINE_AY":0,"LINE_BX":1,"LINE_BY":1,"LINE_COLOR":[255,255,255],"LINE_THICKNESS":1}},{"step":"edge_outline","enabled":false,"params":{"EDGE_OUTLINE_THICKNESS":2,"EDGE_OUTLINE_COLOR":[255,255,255]}},{"step":"grain","enabled":false,"params":{"GRAIN_MODE":"bw","GRAIN_SIZE":1,"GRAIN_ROUGHNESS":0.5}}]
+SPRITE_SIZE = 256
+RESIZE_METHOD = "LANCZOS"
+PROCESSING_SCOPE = "all"
+MAX_GIF_FRAMES = 30
+GIF_SPEED = 0.6
+IMAGE_SETTINGS_LABELS = true
+IMAGE_SETTINGS_COLOR = [255,255,255]
+IMAGE_SETTINGS_FONTSIZE = 3
+IMAGE_SETTINGS_CUSTOMTEXT = ""
+IMAGE_SETTINGS_CP = false
+LABEL_SPRITE_SIZE = 512
+SQUARE_IMAGES = true
+TRANSPARENCY_THRESHOLD = 0.001
+STACK_SPACING = 0.09
